@@ -5,3 +5,85 @@
   text-align: center;
 }
 
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+.add-items {
+  padding: 200px;
+  background-color: orange;
+}
+
+.app {
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width:80%;
+  display: flex;
+}
+
+.order-details {
+  padding: 0 200px;
+  background-color: whitesmoke;
+}
+
+
+.add-items {
+  padding: 0 100px;
+  background-color: orange;
+  border-radius: 0 8px 8px 0;
+  color: black;
+}
+
+.add-items h2 {
+  margin-bottom: 15px;
+}
+
+.add-items ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.add-items li {
+  margin-bottom: 20px;
+}
+
+.item-container {
+  display: flex;
+  align-items: center;
+}
+
+.item-container img {
+ width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.add-items button {
+  background-color: darkorange;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button {
+  background-color: red;
+}
+
+button:hover  {
+  box-shadow: -4px 1px 49px -5px rgba(34, 60, 80, 0.6) inset;
+}
+
+.remove-btn {
+margin-left: 20px;
+}
+

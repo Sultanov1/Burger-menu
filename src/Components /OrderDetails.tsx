@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 interface OrderDetailsProps {
     order: { item: string; quantity: number; price: number }[];
     total: number;
@@ -19,7 +18,7 @@ const OrderDetails: React.FC<OrderDetailsProps> = ({ order, total, onRemoveItem 
                         {order.map((item) => (
                             <li key={item.item}>
                                 {item.quantity}x {item.item} - {item.price}KGS
-                                <button onClick={() => onRemoveItem(item.item)}>Remove</button>
+                                <button className="remove-btn" onClick={() => onRemoveItem(item.item)}>Remove</button>
                             </li>
                         ))}
                     </ul>
